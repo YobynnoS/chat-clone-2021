@@ -1,0 +1,52 @@
+#friends-display_link {
+    text-align: center;
+    display: block;
+    background-color: rgba(129, 219, 255, 0.4);
+    padding: 10px 0px;
+    margin-bottom: 10px;
+}
+
+#friends-display_link i{
+    color: var(--subtext-color);
+}
+
+.friends-screen {
+    padding: 0px var(--horizontal-space);
+}
+
+.friends-screen_chan {
+    margin-top: 25px;
+    border-top: var(--screen-border);
+    padding-top: 15px;
+}
+
+.friends-screen_chan-header {
+    margin-bottom: 20px;
+    display: flex;
+    justify-content: space-between;
+    color: var(--subtext-color);
+}
+
+@keyframes hideSplashScreen {
+    from {
+        opacity: 1;
+    }
+    to {
+        opacity: 0;
+        visibility: hidden;
+    }
+}
+
+#splash-screen {
+    background-color: var(--subtext-color);
+    position: absolute;
+    width: 100vw;
+    height: 100vh;
+    top: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 80px;
+    animation: hideSplashScreen 0.9s ease-in-out forwards;
+    animation-delay: 0.5s;
+}

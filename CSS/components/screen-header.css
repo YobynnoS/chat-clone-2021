@@ -1,0 +1,31 @@
+.screen-header {
+    padding: var(--header-space);
+    margin-bottom: 2px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.screen-header_title {
+    font-size: 25px;
+    font-weight: 500;
+}
+
+.screen-header_icons span {
+    margin-left: 18px;
+}
+
+@keyframes rotateHeaderIcons {
+    from {
+        transform: none;
+    }
+    to {
+        transform: rotateY(360deg);
+    }
+}
+
+.screen-header_icons .fa-comment-dots:hover,
+.screen-header_icons .fa-music:hover,
+.screen-header_icons .fa-sliders-h:hover {
+    animation: rotateHeaderIcons 2s linear infinite;
+}

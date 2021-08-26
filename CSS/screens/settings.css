@@ -1,0 +1,19 @@
+.settings-setting {
+    padding: 20px 0;
+    border-bottom: var(--screen-border);
+    font-size: 18px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.settings-setting i {
+    margin-right: 15px;
+    font-size: 20px;
+}
+
+.settings-setting_column:last-child {
+    font-size: var(--subtext-size);
+    color: var(--subtext-color);
+    margin-top: 15px;
+}

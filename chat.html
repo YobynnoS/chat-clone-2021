@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="css/style.css">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Chat with Friends</title>
+</head>
+<body id="chat-screen">
+    <div class="status-bar">
+        <div class="status-bar_column">
+            <span>No Service</span>
+            <i class="fas fa-wifi"></i>
+        </div>
+        <div class="status-bar_column">
+            <span>08:54</span>
+        </div>
+        <div class="status-bar_column">
+            <span>100%</span>
+            <i class="fas fa-battery-full"></i>
+            <i class="fas fa-bolt"></i>
+        </div>
+    </div>
+    <header class="alt-header">
+        <div class="alt-header_column">
+            <a href="chats.html">
+            <i class="fas fa-angle-left fa-2x"></i>
+            </a>
+        </div>
+        <div class="alt-header_column">
+            <h1 class="alt-header_title">Sonny</h1>
+        </div>
+        <div class="alt-header_column">
+            <span>
+                <i class="fas fa-search fa-lg"></i>
+            </span>
+            <span>
+                <i class="fas fa-bars fa-lg"></i>
+            </span>
+        </div>
+    </header>
+    <main class="main-screen main-chat">
+        <div class="chat-timestamp">
+            Wednesday, August 8, 2021
+        </div>
+        <div class="message-row">
+            <img src="images/pp.jpg" />
+            <div class="message-row_content">
+                <span class="message-author">Sonny</span>
+                <div class="message-content">
+                    <span class="message_bubble">Hi!</span>
+                    <span class="message_time">08:54</span>
+                </div>
+            </div>
+        </div>
+        <div class="message-row message-row_outgoing">
+                <div class="message-content">
+                    <span class="message_bubble">Hey, What's Up</span>
+                    <span class="message_time">08:54</span>
+                </div>
+            </div>
+        </div>
+    </main>
+    <form class="reply">
+        <div class="reply-column">
+            <i class="far fa-plus-square fa-lg"></i>
+        </div>
+        <div class="reply-column">
+            <input type="text" placeholder="Write your message . . .">
+            <i class="far fa-grin fa-lg"></i>
+            <button>
+                <i class="fas fa-paper-plane"></i>
+            </button>
+        </div>
+    </form>
+    <div id="no-mobile">
+        <span>
+            Your Screen is Too Big <i class="fas fa-frown"></i>
+        </span>
+    </div>
+    <script src="https://kit.fontawesome.com/a9c60041d3.js" crossorigin="anonymous"></script>  
+</body>
+</html>

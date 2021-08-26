@@ -1,0 +1,8 @@
+:root {
+    --horizontal-space: 15px 20px;
+    --header-space: 30px 20px 10px 20px;
+    --nav-border: 1px solid rgba( 0, 0, 0, 0.4);
+    --screen-border: 1px solid rgba( 0, 0, 0, 0.2);
+    --subtext-size: 13px;
+    --subtext-color: #e191ff;
+}

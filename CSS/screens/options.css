@@ -1,0 +1,42 @@
+.options-screen .icons-row {
+    margin-top: 10px;
+}
+
+.options-sugg {
+    margin-top: 40px;
+}
+
+.options-sugg_title {
+    margin-bottom: 30px;
+}
+
+.options-sugg_icons {
+    display: flex;
+}
+
+.options-sugg_icon {
+    margin-right: 30px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.options-sugg_iconpic {
+    width: 60px;
+    height: 60px;
+    border-radius: 10px;
+    background-color: rgb(109, 199, 235);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+.options-sugg_iconpic i {
+    font-size: 35px;
+}
+
+.options-sugg_icontext {
+    font-size: var(--subtext-size);
+    color: var(--subtext-color);
+}
